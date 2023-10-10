@@ -5,14 +5,11 @@ import './App.css'
 import AppViewer from './components/AppViewer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-<>
+ return (
+ <>
 <h1>Meu primeiro webapp</h1>
 <AppViewer />
 </>
-  )
+)
 }
-
 export default App
